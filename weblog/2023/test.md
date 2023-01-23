@@ -39,3 +39,5 @@ Why move to managing my weblog with Github?
 1. I can host my weblogs images on GitHub.
 1. I can use VS Code to write my posts (it has a great markdown editor).
 1. Takes less than a minute to commit changes and them showing up online.
+
+If you want to do the same, feel free to look at my [GitHub repo](https://github.com/PhilStollery/phils.weblog.lol) to see how I've set it up.
