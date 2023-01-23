@@ -7,4 +7,4 @@ Tags: playdate, panic, gaming, 2023
 
 One of the cool things about omg.lol and specially it's weblog feature is that it's backed by an API. There are [steps](https://advent.weblog.lol/day-12) on how to hook it up. 
 
-This is a test post to see if it's now working?
+This is a test post to see if it's now working? Maybe I had the wrong address?
