@@ -8,6 +8,11 @@ Title: Page Template
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 {feeds}
+<link rel="apple-touch-icon" sizes="180x180" href="https://raw.githubusercontent.com/PhilStollery/phils.weblog.lol/master/images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://raw.githubusercontent.com/PhilStollery/phils.weblog.lol/master/images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://raw.githubusercontent.com/PhilStollery/phils.weblog.lol/master/images/favicon-16x16.png">
+<link rel="manifest" href="https://raw.githubusercontent.com/PhilStollery/phils.weblog.lol/master/images/site.webmanifest">
+
 <style>
 @import url('https://static.omg.lol/type/font-honey.css');
 @import url('https://static.omg.lol/type/font-lato-regular.css');
@@ -17,31 +22,31 @@ Title: Page Template
 @import url('https://static.omg.lol/type/fontawesome-free/css/all.css');
 
 :root {
-	--foreground: #212529;
-	--background: #f8f9fa;
-	--link: #0b7285;
-	--accent: #868e96;
-	--articleBG: #313437;
+  --foreground: #212529;
+  --background: #f8f9fa;
+  --link: #0b7285;
+  --accent: #868e96;
+  --articleBG: #313437;
 }
 
 @media (prefers-color-scheme: dark) {
-	:root {
-		--foreground: #eee;
-		--background: #222;
-		--link: #99e9f2;
-		--accent: #ced4da;
-	}
+  :root {
+    --foreground: #eee;
+    --background: #222;
+    --link: #99e9f2;
+    --accent: #ced4da;
+  }
 }
 
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-	font-family: 'Lato', sans-serif;
-	font-size: 120%;
-	color: var(--foreground);
-	background: var(--background);
+  font-family: 'Lato', sans-serif;
+  font-size: 120%;
+  color: var(--foreground);
+  background: var(--background);
 }
 
 nav {
@@ -68,36 +73,36 @@ nav ul {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'VC Honey Deck', serif;
-	margin: 1rem 0;
+  font-family: 'VC Honey Deck', serif;
+  margin: 1rem 0;
 }
 
 p, li {
-	line-height: 160%;
+  line-height: 160%;
 }
 
 header, main, footer {
-	max-width: 50em;
-	margin: 3em auto;
-	padding: 0 0.5em;
+  max-width: 50em;
+  margin: 3em auto;
+  padding: 0 0.5em;
 }
 
 header {
-	margin-top: 3em;
+  margin-top: 3em;
 }
 
 header h1 { 
-	text-align: center;
+  text-align: center;
 }
 
 header h1 a:hover { 
-	text-decoration: none;
+  text-decoration: none;
 }
 
 footer p {
-	margin-top: 5em;
-	font-size: 90%;
-	text-align: center;
+  margin-top: 5em;
+  font-size: 90%;
+  text-align: center;
 }
 
 a:link { color: var(--link); text-decoration: none; }
@@ -110,155 +115,155 @@ nav li a:link, nav li a:visited {
 }
 
 .post-info, .post-tags {
-	font-size: 85%;
-	color: var(--accent);
-	text-align: left;
+  font-size: 85%;
+  color: var(--accent);
+  text-align: left;
 }
 
 .post-info {
-	padding-bottom: 1em;
-	border-bottom: 1px outset var(--accent);
+  padding-bottom: 1em;
+  border-bottom: 1px outset var(--accent);
 }
 
 .post-info i:nth-child(2) {
-	margin-left: .75em;
+  margin-left: .75em;
 }
 
 .post-tags {
-	padding-bottom: 1em;
+  padding-bottom: 1em;
 }
 
 .tag {
-	background: var(--accent);
-	color: var(--background) !important;
-	padding: .3em .4em;
-	margin: .8em 0 0 .4em;
-	border-radius: .5em;
-	text-decoration: none;
-	display: inline-block;
+  background: var(--accent);
+  color: var(--background) !important;
+  padding: .3em .4em;
+  margin: .8em 0 0 .4em;
+  border-radius: .5em;
+  text-decoration: none;
+  display: inline-block;
 }
 
 hr {
-	border: 0;
-	height: 1px;
-	background: #333;
-	margin: 2em 0;
+  border: 0;
+  height: 1px;
+  background: #333;
+  margin: 2em 0;
 }
 
 code {
-	padding: .2em .3em;
-	border: 1px solid var(--accent);
-	white-space: pre-wrap;
-	word-wrap: break-word; 
+  padding: .2em .3em;
+  border: 1px solid var(--accent);
+  white-space: pre-wrap;
+  word-wrap: break-word; 
 }
 
 pre, code {
-	font-family: 'MD IO 0.4';
-	font-size: 90%;
+  font-family: 'MD IO 0.4';
+  font-size: 90%;
 }
 
 pre code {
-	background:  #000;
-	color:  #eee;
-	display: inline-block;
-	padding: 1em;
-	white-space: pre-wrap;
-	word-wrap: break-word;   
+  background:  #000;
+  color:  #eee;
+  display: inline-block;
+  padding: 1em;
+  white-space: pre-wrap;
+  word-wrap: break-word;   
 }
 
 table {
-	border-collapse: collapse;
+  border-collapse: collapse;
 }
 
 td, th {
-	padding: .75em;
-	text-align: left;
-	border: 1px solid var(--accent);
+  padding: .75em;
+  text-align: left;
+  border: 1px solid var(--accent);
 }
-	
+  
 .weblog-title a {
-	text-decoration: none;
-	color: var(--foreground);
+  text-decoration: none;
+  color: var(--foreground);
 }
 
 img {
-	display: block;
-	width: auto;
-	height: auto;
-	max-width: 100%;
-	border-radius: 0.5em;
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  border-radius: 0.5em;
 }
 
 div.table-container {
-	display: flex; 
-	flex-direction: row;
+  display: flex; 
+  flex-direction: row;
 }
 
 div.table-cell {
-	padding-right: 1em;
-	padding-bottom: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
 }
 
 div.weblog-info {
-	display: flex;
+  display: flex;
         flex-direction: row;
         gap: 2rem;
         margin-top: 7rem;
         padding: 1rem 2rem 0.75rem;
-	background-color: var(--articleBG);
-	border-radius: 0.5em;
+  background-color: var(--articleBG);
+  border-radius: 0.5em;
 }
 
 div.weblog-info div.item {
-	flex: 1;
+  flex: 1;
 }
 
 @media only screen and (max-width: 750px) {
-	div.weblog-info {
-		display: flex;
-		flex-direction: column;
-		gap: 0;
-	}
-	div.weblog-info div.item {
-		flex: 1;
-	}
+  div.weblog-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  div.weblog-info div.item {
+    flex: 1;
+  }
 
-	div.table-container {
-		display: flex; 
-		flex-direction: column;
-		gap: 0;
-	}
+  div.table-container {
+    display: flex; 
+    flex-direction: column;
+    gap: 0;
+  }
 }
 
 div.weblog-info ul {
-	 margin-left: 1.2rem;
-		padding-left: 0;
+   margin-left: 1.2rem;
+    padding-left: 0;
 }
 
 div.weblog-info div.statuslol_emoji_container {
-	display: none;
+  display: none;
 }
 
 h3.recent-posts:before {
-	content: "\f1da";
-	font: var(--fa-font-solid);
-	margin-right: 0.8rem;
+  content: "\f1da";
+  font: var(--fa-font-solid);
+  margin-right: 0.8rem;
 }
 
 h3.more-posts:before {
-	content: "\f0ca";
-	font: var(--fa-font-solid);
-	margin-right: 0.8rem;
+  content: "\f0ca";
+  font: var(--fa-font-solid);
+  margin-right: 0.8rem;
 }
 
 h3.current-status:before {
-	content: "\f0a1";
-	font: var(--fa-font-solid);
-	margin-right: 0.8rem;
+  content: "\f0a1";
+  font: var(--fa-font-solid);
+  margin-right: 0.8rem;
 }
 
 article > ol > li {
-	padding-inline-start: 0.75em;
+  padding-inline-start: 0.75em;
 }
 
 </style>
@@ -266,39 +271,39 @@ article > ol > li {
 <body>
 
 <header>
-	<h1 class="weblog-title"><a href="{base-path}">{weblog-title}</a></h1>
-	{navigation}
+  <h1 class="weblog-title"><a href="{base-path}">{weblog-title}</a></h1>
+  {navigation}
 </header>
 
 <main>
 
 <article>
-	{body}
+  {body}
 </article>
 
 <div class="weblog-info">
-	<div class="item">
-		<h3 class="current-status">Current status</h3>
-		<script src="https://status.lol/phils.js?time&link"></script>
-		<br\>
-	</div>
-	<div class="item">
-		<h3 class="recent-posts">Last post</h3>
-		{recent-posts}
-		<br\>
-		<h3 class="more-posts">More posts</h3>
-		<ul>
-			<li><a href="/archive">All posts</a></li>
-			<li><a href="/random">Random post</a></li>
-		</ul>
-		<br\>
-	</div>
+  <div class="item">
+    <h3 class="current-status">Current status</h3>
+    <script src="https://status.lol/phils.js?time&link"></script>
+    <br\>
+  </div>
+  <div class="item">
+    <h3 class="recent-posts">Last post</h3>
+    {recent-posts}
+    <br\>
+    <h3 class="more-posts">More posts</h3>
+    <ul>
+      <li><a href="/archive">All posts</a></li>
+      <li><a href="/random">Random post</a></li>
+    </ul>
+    <br\>
+  </div>
 </div>
 
 </main>
 
 <footer>
-	<p>Made with <i class="fa-solid fa-heart"></i> at <a href="https://weblog.lol">weblog.lol</a>. You can also find me on <a rel="me" href="https://social.lol/@phils">Mastodon</a>. &copy; {year}</p>
+  <p>Made with <i class="fa-solid fa-heart"></i> at <a href="https://weblog.lol">weblog.lol</a>. You can also find me on <a rel="me" href="https://social.lol/@phils">Mastodon</a>. &copy; {year}</p>
 </footer>
 
 </body>
