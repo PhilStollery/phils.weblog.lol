@@ -1,0 +1,89 @@
+// Weblog Configuration
+
+;; About your weblog
+;; -----------------
+
+Weblog Title: Phils weblog
+Weblog Description: This is a small corner of the internet I write to - occasionally.
+Author: Phil Stollery
+Canonical domain: stollerys.co.uk
+
+;; General config stuff
+;; --------------------
+
+Separator:  · 
+Navigation: home, archive, setup, [about](https://me.stollerys.co.uk), [<i class="fas fa-rss"></i>](/rss.xml)
+Landing page: home
+Random post location: /random
+
+;; Time stuff
+;; ----------
+
+; You can use a timezone value from the "TZ database name" column on this 
+; web page: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+Timezone: UTC
+Date format: l, j F Y
+
+
+;; Feeds
+;; -----
+
+Feed post count: 25
+
+
+;; Posts
+;; -----
+
+Post path format: /Y/m/
+
+Default post: <<[---
+Date: $date
+Tags: 2023, 
+---
+
+# Your new post
+
+This is a new blog post. You can author it in _Markdown_, which is **awesome**.]>>
+
+
+;; Recent posts {recent-posts}
+;; ---------------------------
+
+Recent posts count: 1
+Recent posts format: <<[
+[post:begin]<p><a href="$location"><i class="far fa-newspaper"></i> $title</a></p>[post:end]
+]>>
+
+
+;; Post list {post-list}
+;; ---------------------
+
+Post list format: <<[
+<ol reversed>
+[post:begin]<li><a href="$location">$title - <i>$date</i></a></li>[post:end]
+</ol>]>>
+
+
+;; Search
+;; ------
+
+Search status: enabled
+Search results success message: There [is|are] $count [result|results] for your search:
+Search results failure message: There were no results found for your search.
+Search results format: <<[
+<h2>Results for “$search”</h2>
+<p>$search_results_message</p>
+[post:begin]<h3><a href="$location">$title</a></h3>
+<p>$date</p>
+<p>$snippet</p>[post:end]
+]>>
+
+
+;; Tags {tags}
+;; -----------
+
+Tag path: /tag/
+Tags format: <<[
+[tag:begin]<a class="tag" href="$tag_location"><i class="fa-solid fa-tag"></i> $tag</a>[tag:end]
+]>>
