@@ -303,7 +303,7 @@ article > ol > li {
 </main>
 
 <footer>
-  <p>Made with <i class="fa-solid fa-heart"></i> at <a href="https://weblog.lol">weblog.lol</a>. You can also find me on <a rel="me" href="https://social.lol/@phils">Mastodon</a>. &copy; {year}</p>
+  <p>Made with <i class="fa-solid fa-heart"></i> at <a href="https://weblog.lol">weblog.lol</a>. You can also find me on <a rel="me" href="https://social.lol/@phils">Mastodon</a>. &copy; 2018 - {year}</p>
 </footer>
 
 </body>
