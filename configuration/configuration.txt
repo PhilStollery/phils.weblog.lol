@@ -12,7 +12,7 @@ Canonical domain: stollerys.co.uk
 ;; --------------------
 
 Separator:  · 
-Navigation: home, archive, setup, [about](https://me.stollerys.co.uk), [<i class="fas fa-rss"></i>](/rss.xml)
+Navigation: home, archive, setup, [about](https://me.stollerys.co.uk), [{rss}}](/rss.xml)
 Landing page: home
 Random post location: /random
 
