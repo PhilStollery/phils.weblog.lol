@@ -261,6 +261,12 @@ h3.current-status:before {
   font: var(--fa-font-solid);
   margin-right: 0.8rem;
 }
+  
+h3.contact-me:before {
+  content: "\f573";
+  font: var(--fa-font-solid);
+  margin-right: 0.8rem;
+}
 
 article > ol > li {
   padding-inline-start: 0.75em;
@@ -286,6 +292,11 @@ article > ol > li {
     <h3 class="current-status">Current status</h3>
     <script src="https://status.lol/phils.js?time&link"></script>
     <br\>
+    <h3 class="contact-me">Contact me</h3>
+    <ul>
+      <li><a href="mailto:phils@omg.lol" title="Email me"><i class="far fa-envelope"></i></a></li>
+      <li><a rel="me" href="https://social.lol/@phils" title="My Mastodon instance."><i class="fa-brands fa-fw fa-mastodon"></i></a></li>
+    </ul>
   </div>
   <div class="item">
     <h3 class="recent-posts">Last post</h3>
@@ -303,7 +314,7 @@ article > ol > li {
 </main>
 
 <footer>
-  <p>Made with <a href="https://home.omg.lol/referred-by/phils" title="Love by prami at omg.lol"><i class="fa-solid fa-heart"></i></a> at <a href="https://weblog.lol">weblog.lol</a>. <a href="mailto:phils@omg.lol" title="Email me"><i class="far fa-envelope"></i></a> or you can find me on <a rel="me" href="https://social.lol/@phils" title="A Mastodon instance."><i class="fa-brands fa-fw fa-mastodon"></i></a>. &copy; 2018 - {year}</p>
+  <p>Made with <a href="https://home.omg.lol/referred-by/phils" title="Love by prami at omg.lol"><i class="fa-solid fa-heart"></i></a> at <a href="https://weblog.lol">weblog.lol</a> &copy; 2018 - {year}</p>
 </footer>
 
 </body>
