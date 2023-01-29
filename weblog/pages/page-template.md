@@ -244,6 +244,12 @@ div.weblog-info div.statuslol_emoji_container {
   display: none;
 }
 
+.statuslol_content p {
+  line-height: 100%;
+  margin: 0;
+}
+
+
 h3.recent-posts:before {
   content: "\f1da";
   font: var(--fa-font-solid);
