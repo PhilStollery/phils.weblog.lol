@@ -246,9 +246,12 @@ div.weblog-info div.statuslol_emoji_container {
 
 .statuslol_content p {
   line-height: 100%;
-  margin: 0;
+  margin-bottom: 0.5em;
 }
 
+.statuslol_time {
+    padding-left: 0.5em;
+}
 
 h3.recent-posts:before {
   content: "\f1da";
