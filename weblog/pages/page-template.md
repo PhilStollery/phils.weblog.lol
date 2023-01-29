@@ -303,7 +303,7 @@ article > ol > li {
 </main>
 
 <footer>
-  <p>Made with <i class="fa-solid fa-heart"></i> at <a href="https://weblog.lol">weblog.lol</a>. You can also find me on <a rel="me" href="https://social.lol/@phils" title="A Mastodon instance."><i class="fa-brands fa-fw fa-mastodon"></i></a>. &copy; 2018 - {year}</p>
+  <p>Made with <a href="https://home.omg.lol/referred-by/phils" title="Love by prami at omg.lol"><i class="fa-solid fa-heart"></i></a> at <a href="https://weblog.lol">weblog.lol</a>. You can also find me on <a rel="me" href="https://social.lol/@phils" title="A Mastodon instance."><i class="fa-brands fa-fw fa-mastodon"></i></a>. &copy; 2018 - {year}</p>
 </footer>
 
 </body>
