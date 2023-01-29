@@ -278,6 +278,10 @@ h3.contact-me:before {
   margin-right: 0.8rem;
 }
 
+h3.contact-me {
+    margin-top: 2em;
+}
+
 article > ol > li {
   padding-inline-start: 0.75em;
 }
