@@ -251,6 +251,7 @@ div.weblog-info div.statuslol_emoji_container {
 
 .statuslol_time {
     padding-left: 0.5em;
+    font-size: 0.8em;
 }
 
 h3.recent-posts:before {
