@@ -293,10 +293,7 @@ article > ol > li {
     <script src="https://status.lol/phils.js?time&link"></script>
     <br\>
     <h3 class="contact-me">Contact me</h3>
-    <ul>
-      <li><a href="mailto:phils@omg.lol" title="Email me"><i class="far fa-envelope"></i></a></li>
-      <li><a rel="me" href="https://social.lol/@phils" title="My Mastodon instance."><i class="fa-brands fa-fw fa-mastodon"></i></a></li>
-    </ul>
+    <p><a href="mailto:phils@omg.lol" title="Email me"><i class="far fa-envelope"></i></a>&nbsp;<a rel="me" href="https://social.lol/@phils" title="My Mastodon instance."><i class="fa-brands fa-fw fa-mastodon"></i></a></p>
   </div>
   <div class="item">
     <h3 class="recent-posts">Last post</h3>
