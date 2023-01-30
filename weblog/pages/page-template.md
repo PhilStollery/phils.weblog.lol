@@ -244,6 +244,16 @@ div.weblog-info div.statuslol_emoji_container {
   display: none;
 }
 
+.statuslol_content p {
+  line-height: 100%;
+  margin-bottom: 0.5em;
+}
+
+.statuslol_time {
+    padding-left: 0.5em;
+    font-size: 0.8em;
+}
+
 h3.recent-posts:before {
   content: "\f1da";
   font: var(--fa-font-solid);
@@ -260,6 +270,16 @@ h3.current-status:before {
   content: "\f0a1";
   font: var(--fa-font-solid);
   margin-right: 0.8rem;
+}
+  
+h3.contact-me:before {
+  content: "\f573";
+  font: var(--fa-font-solid);
+  margin-right: 0.8rem;
+}
+
+h3.contact-me {
+    margin-top: 2em;
 }
 
 article > ol > li {
@@ -286,6 +306,7 @@ article > ol > li {
     <h3 class="current-status">Current status</h3>
     <script src="https://status.lol/phils.js?time&link"></script>
     <br\>
+    <h3 class="contact-me">Contact me <a href="mailto:phils@omg.lol" title="Email me"><i class="far fa-envelope"></i></a>&nbsp;<a rel="me" href="https://social.lol/@phils" title="My Mastodon instance."><i class="fa-brands fa-fw fa-mastodon"></i></a></h3>
   </div>
   <div class="item">
     <h3 class="recent-posts">Last post</h3>
@@ -303,7 +324,7 @@ article > ol > li {
 </main>
 
 <footer>
-  <p>Made with <a href="https://home.omg.lol/referred-by/phils"><i class="fa-solid fa-heart"></i></a> at <a href="https://weblog.lol">weblog.lol</a>. You can also find me on <a rel="me" href="https://social.lol/@phils" title="A Mastodon instance."><i class="fa-brands fa-fw fa-mastodon"></i></a>. &copy; 2018 - {year}</p>
+  <p>Made with <a href="https://home.omg.lol/referred-by/phils" title="Love by prami at omg.lol"><i class="fa-solid fa-heart"></i></a> at <a href="https://weblog.lol">weblog.lol</a> &copy; 2018 - {year}</p>
 </footer>
 
 </body>
