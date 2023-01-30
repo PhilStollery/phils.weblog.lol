@@ -10,5 +10,4 @@ Title: Last week of my playdate season pass
 
 Quick google (Duck Duck failed to find this) got me to the makers [website](http://shauninman.com/playdate/ratcheteer/). So I know where to go when I'm stuck again. The hints are really well done. 
 
-Hope this helps you too. 
-
+Hope this helps you too.
