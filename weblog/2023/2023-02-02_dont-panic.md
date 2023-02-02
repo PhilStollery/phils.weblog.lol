@@ -10,6 +10,8 @@ Title: Designing in public putting my thoughts down on paper
 
 I need to capture what I'm going to try and build for the playdate. Of all the season 1 games Battle Ship Godios tickled my brain. So much so that I went ahead and bought Gradius for the Switch. 
 
+[![gradius](https://raw.githubusercontent.com/PhilStollery/phils.weblog.lol/master/images/gradius.png)](https://www.nintendo.com/store/products/arcade-archives-gradius-switch/)
+
 The fixed screen of the playdate fits perfectly with the game play, but it is brutally hard. You die you loos all your powerups and most of your progress. Here's my plan for my tribute to Gradius, Don't PANIC.
 
 1. Power ups will have three levels: 
