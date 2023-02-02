@@ -12,18 +12,20 @@ I need to capture what I'm going to try and build for the playdate. Of all the s
 
 [![gradius](https://raw.githubusercontent.com/PhilStollery/phils.weblog.lol/master/images/gradius.png)](https://www.nintendo.com/store/products/arcade-archives-gradius-switch/)
 
-The fixed screen of the playdate fits perfectly with the game play, but it is brutally hard. You die you loos all your powerups and most of your progress. Here's my plan for my tribute to Gradius, Don't PANIC.
+The fixed screen of the playdate fits perfectly with the game play, but it is brutally hard. When you die you loose all your powerups and most of your progress. 
 
-1. Power ups will have three levels: 
-    - Speed
-    - Fire
-    - Bots
-    - Shield
-1. Your ship will have armour (5 hits) that you can repair with powerups.
+Here's my plan for my tribute to Gradius, it's called **Don't PANIC**.
+
+1. Powerups will have three levels: 
+    - Speed (slow, medium, fast)
+    - Fire (double shot, add up, add down)
+    - Bots (add a bot, bot can shoot, and second bot)
+    - Shield (switch shield on, 30 degrees, 90 degrees)
+1. Your ship will have armour (5 hits) that you can repair with different powerups.
 1. You won't have lives.
 1. The shield will be deployed (or stowed away) and rotated with the crank.
 1. I'll release levels one at a time, for 99p on itch.io. Buy a level and you get access to beta versions of new levels as they're developed.
-1. Once a level is unlocked you can replay from the start (think planets in a solar system). 
+1. Once a level is unlocked you can replay from the start of it (think planets in a solar system). 
 1. You'll travel to the center of the solar system to destroy the final boss.
 
 More to come.
