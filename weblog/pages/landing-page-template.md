@@ -1,10 +1,11 @@
 Type: Template
-Title: Page Template
+Title: Landing Page Template
 
 <!DOCTYPE html>
-<html lang="en" data-theme="dark">
+<html lang="en">
 <head>
-<title>{weblog-title}{separator}{post-title}</title>
+<title>{weblog-title}</title>
+<meta charset="utf-8">
 <meta proof="proven.lol/fe24d0">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,10 +17,6 @@ Title: Page Template
 <link rel="icon" type="image/png" sizes="16x16" href="https://raw.githubusercontent.com/PhilStollery/phils.weblog.lol/master/images/favicon-16x16.png">
 <link rel="manifest" href="https://raw.githubusercontent.com/PhilStollery/phils.weblog.lol/master/images/site.webmanifest">
 <link rel="stylesheet" media="all" href="/style.css" />
-<script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.23.3/dist/algoliasearch-lite.umd.js" integrity="sha256-1QNshz86RqXe/qsCBldsUu13eAX6n/O98uubKQs87UI=" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.71.0/dist/instantsearch.production.min.js" integrity="sha256-HwiQbSydpPkcoRaTUT9tAcbbWrDk+KkdjN7vlmEllGE=" crossorigin="anonymous"></script>
-
-<script type="module" src="/search.js"></script>
 </head>
 <body>
 
@@ -31,29 +28,35 @@ Title: Page Template
 
 <main>
 
-<article>
-  {body}
-</article>
+<h1 id="content-home"><a href="#content-home" class="heading-permalink" aria-hidden="true" title="Permalink"></a><i class="fas fa-house"></i> home</h1>
+
+<p>My little corner of the web, where I collect the odd things I find.</p>
+
+<p>Now, if you're a specific kind of reader you might have a feeling that you need to contact me about the title of my weblog. Let me stop you from typing, "bla bla missing an apostrophe bla bla". You see, my blog is named after my omg.lol username. Yes, it's Phils. So this is Phils weblog. Not Phil's weblog.</p>
+
+<h2><i class="far fa-newspaper"></i> Recent posts</h2>
+
+{body}
 
 <div class="weblog-info">
-  <div class="item">
-    <h3 class="current-status">Current status</h3>
-    <script src="https://status.lol/phils.js?time&link"></script>
+	<div class="item">
+		<h3 class="current-status">Current status</h3>
+		<script src="https://status.lol/phils.js?time&link"></script>
+		<br\>
+		<h3 class="contact-me">Contact me: <a href="mailto:phils@omg.lol" title="Email me"><i class="far fa-envelope"></i></a> <a rel="me" href="https://social.lol/@phils" title="My Mastodon instance."><i class="fa-brands fa-fw fa-mastodon"></i></a></h3>
     <br\>
-    <h3 class="contact-me">Contact me: <a href="mailto:phils@omg.lol" title="Email me"><i class="far fa-envelope"></i></a> <a rel="me" href="https://social.lol/@phils" title="My Mastodon instance."><i class="fa-brands fa-fw fa-mastodon"></i></a></h3>
-    <br\>
-        <h3 class="page-hits">Hits: <a href="https://tinylytics.app/public/aacr4gz9Xw_Ya-qqQH8d" title="Page hits supplied by tinylytics.app"><span class="tinylytics_hits"></span></a></h3>
-  </div>
-  <div class="item">
-    <h3 class="recent-posts">Last post</h3>
-    <span style="padding-left: 1em; display: block;">{recent-posts}</span>
-    <h3 class="more-posts">More posts</h3>
-    <ul style="padding-left: 1em;">
-      <li>All <a href="/archive">posts</a></li>
-      <li>Random <a href="/random">post</a></li>
-      <li>All <a href="/tags">tags</a></li>
-    </ul>
-  </div>
+    <h3 class="page-hits">Hits: <a href="https://tinylytics.app/public/aacr4gz9Xw_Ya-qqQH8d" title="Page hits supplied by tinylytics.app"><span class="tinylytics_hits"></span></a></h3>
+	</div>
+	<div class="item">
+		<h3 class="more-posts">More posts</h3>
+		<ul style="padding-left: 1em;">
+			<li>All <a href="/archive">posts</a></li>
+			<li>Random <a href="/random">post</a></li>
+			<li>All <a href="/tags">tags</a></li>
+		</ul>
+		<br\>
+	</div>
+
 	<div class="item">
 		<h3 class="webring">Webring</h2>
 <span class="webring-title"><a href="https://stollerys.co.uk/webring">The Unofficial weblog.lol</a></span>
@@ -64,7 +67,6 @@ Title: Page Template
 </span> 
 	</div>
 </div>
-
 </main>
 
 <footer>

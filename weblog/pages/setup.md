@@ -5,16 +5,16 @@ Title: setup
 Location: /setup
 ---
 
-# <i class="fas fa-user-cog"></i> personal tech setup
+# <i class="fas fa-user-cog"></i> personal hardware tech setup
 
 <div class="table-container">
 <div class="table-cell">
 
 | <i class="fas fa-mobile"></i> Mobile | 
 |:---:|
-| iPhone 13 Pro |
+| iPhone 15 |
 | 256 GB |
-| Sierra blue |  
+| Black |  
 
 </div>
 
@@ -57,4 +57,5 @@ Location: /setup
 
 </div>
 
+Now check out my software [setup](/defaults).
 
