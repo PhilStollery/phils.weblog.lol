@@ -4,7 +4,7 @@
 ;; -----------------
 
 Weblog Title: Phils weblog
-Weblog Description: This is a small corner of the internet I write to - occasionally.
+Weblog Description: This is a small corner of the internet where I write - occasionally.
 Author: Phil Stollery
 Canonical domain: stollerys.co.uk
 
@@ -12,9 +12,21 @@ Canonical domain: stollerys.co.uk
 ;; --------------------
 
 Separator:  · 
-Navigation: home, archive, setup, [about](https://me.stollerys.co.uk), [{rss}](/rss.xml)
-Landing page: home
+Navigation: [/](/slashes), [home](/), archive, [about](https://me.stollerys.co.uk), [<i class="fa-brands fa-mastodon"></i>](https://social.lol/@phils), [<i class="fas fa-rss"></i>](/feed.json), [<i class="fas fa-magnifying-glass"></i>](/search)
 Random post location: /random
+//Landing page: home
+Landing page template: Landing Page Template
+Landing page post count: 3
+Landing page post length: 45 words
+Post template: Post Template
+
+
+;; Pagination
+;; ----------
+
+Pagination path: /page/
+Previous page template: <span class="previous-page"><a href="$previous_page">← Previous Page</a></span>
+Next page template: <span class="next-page"><a href="$next_page">Next Page →</a></span>
 
 ;; Time stuff
 ;; ----------
@@ -23,13 +35,13 @@ Random post location: /random
 ; web page: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 Timezone: UTC
-Date format: l, j F Y
+Date format: Y, M j
 
 
 ;; Feeds
 ;; -----
 
-Feed post count: 25
+Feed post count: 250
 
 
 ;; Posts
@@ -39,7 +51,8 @@ Post path format: /Y/m/
 
 Default post: <<[---
 Date: $date
-Tags: 2023, 
+Tags: 2024
+Status: Draft
 ---
 
 # Your new post
@@ -60,9 +73,9 @@ Recent posts format: <<[
 ;; ---------------------
 
 Post list format: <<[
-<ol reversed>
-[post:begin]<li><a href="$location">$title - <i>$date</i></a></li>[post:end]
-</ol>]>>
+<ul reversed style="list-style-type: none;padding-left: 0.5em;">
+[post:begin]<li>$date: <a href="$location">$title</a></li>[post:end]
+</ul>]>>
 
 
 ;; Search
