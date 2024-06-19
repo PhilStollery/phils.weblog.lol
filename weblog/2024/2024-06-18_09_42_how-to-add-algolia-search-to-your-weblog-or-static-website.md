@@ -176,5 +176,9 @@ That's it. There are some tweaks I did. Like adding a `description` field to the
 
 You also have to add every new post into the search index. I was hoping the excellent [Echo Feed](https://echofeed.app/) might help me here, but currently it can't send the authentication tokens it needs. So I manually add the JSON for every new post.
 
+## I forgot about GitHub and GitHub actions
+
+Maybe I can automate all this for free using GitHub. It would also fix my audio and image hosting... I'll update if I work it out.
+
 
 Good luck [searching](/search).
