@@ -6,7 +6,7 @@ Snippet: I've been adding PDF downloads to my writing samples — using Google D
 
 # Bringing audio to my weblog
 
-<audio controls crossorigin>
+<audio controls>
     <source src="https://raw.githubusercontent.com/PhilStollery/phils.weblog.lol/master/audio/bringing-audio-to-my-weblog.m4a" type="audio/mp3">
     <p>Your browser doesn't support the audio tag. Download the M4A file here:  <a href="https://raw.githubusercontent.com/PhilStollery/phils.weblog.lol/master/audio/bringing-audio-to-my-weblog.m4a">https://raw.githubusercontent.com/PhilStollery/phils.weblog.lol/master/audio/bringing-audio-to-my-weblog.m4a</a></p>
 </audio>
