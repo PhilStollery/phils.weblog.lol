@@ -18,4 +18,4 @@ Microsoft byte-sized training you can take right now
 
 Microsoft e-book you can read
 
-- [Fusion development approach to building apps using Power Apps](https://learn.microsoft.com/power-apps/guidance/fusion-dev-ebook/) [<i class="fa-solid fa-file-pdf"></i>](https://drive.google.com/file/d/12uWoh6WcB5GBAp5WFvC0lw3AO2Zfqtu9/view?usp=drive_link)
+- [Fusion development approach to building apps using Power Apps](https://learn.microsoft.com/power-apps/guidance/fusion-dev-ebook/) [<i class="fa-solid fa-file-pdf"></i>](https://raw.githubusercontent.com/PhilStollery/phils.weblog.lol/master/pdfs/The%20Fusion%20Development%20Approach%20to%20Building%20Power%20Apps%20April%202021.pdf)
