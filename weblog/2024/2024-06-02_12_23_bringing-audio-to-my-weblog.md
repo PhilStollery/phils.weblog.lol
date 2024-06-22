@@ -7,8 +7,8 @@ Snippet: I've been adding PDF downloads to my writing samples — using Google D
 # Bringing audio to my weblog
 
 <audio controls crossorigin>
-    <source src="https://github.com/PhilStollery/phils.weblog.lol/raw/master/audio/bringing-audio-to-my-weblog.m4a" type="audio/mp3">
-    <p>Your browser doesn't support the audio tag. Download the M4A file here:  <a href="https://github.com/PhilStollery/phils.weblog.lol/raw/master/audio/bringing-audio-to-my-weblog.m4a">https://github.com/PhilStollery/phils.weblog.lol/raw/master/audio/bringing-audio-to-my-weblog.m4a</a></p>
+    <source src="https://raw.githubusercontent.com/PhilStollery/phils.weblog.lol/master/audio/bringing-audio-to-my-weblog.m4a" type="audio/mp3">
+    <p>Your browser doesn't support the audio tag. Download the M4A file here:  <a href="https://raw.githubusercontent.com/PhilStollery/phils.weblog.lol/master/audio/bringing-audio-to-my-weblog.m4a">https://raw.githubusercontent.com/PhilStollery/phils.weblog.lol/master/audio/bringing-audio-to-my-weblog.m4a</a></p>
 </audio>
 
 I've been adding PDF downloads to my writing samples — using Google Drive. I also have been thinking I'd like to add the [micro.blog](https://micro.blog/) feature of audio posts. A quick search found [Embedding Audio Files from Google Drive into HTML](https://www.simonsays.so/embedding-audio-files-from-google-drive/). But this didn't work. I think it's a combination of CORS and other authentication blocking from Google. There is however a fix. 
