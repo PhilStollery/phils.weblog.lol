@@ -52,4 +52,8 @@ For example, the final code I drop into posts for my media player is:
 
 So now you can listen to my ramblings when I think it'll be useful. There appears to be a limit to the number of times you can call the API in a minute, I had lots of screenshots, and they were triggering a usage limit so nothing worked. I guess, use with caution!
 
-P.S. Doesn't appear to be working on mobile — don't know why yet.
+P.S. Doesn't appear to be working on mobile — don't know why yet. Dumb error on my part I had type="audio/mp3" when my file was actually m4a.
+
+## GitHub to the rescue
+
+I think you can scrap everything I've said above if you move to GitHub and host all your files there. I'm doing that now for my PDFs and audio files.
