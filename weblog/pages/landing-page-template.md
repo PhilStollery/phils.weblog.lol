@@ -5,6 +5,9 @@ Title: Landing Page Template
 <html lang="en">
 <head>
 <title>{weblog-title}</title>
+<meta name="author" content="Phil Stollery" />
+<meta name="description" content="My little corner of the web, where I collect the odd things I find. A personal weblog." />
+
 <meta charset="utf-8">
 <meta proof="proven.lol/fe24d0">
 <meta charset="utf-8">
