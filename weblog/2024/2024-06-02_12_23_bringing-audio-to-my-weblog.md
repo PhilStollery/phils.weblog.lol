@@ -7,8 +7,8 @@ Snippet: I've been adding PDF downloads to my writing samples — using Google D
 # Bringing audio to my weblog
 
 <audio controls>
-    <source src="https://www.googleapis.com/drive/v3/files/1KggRUpNYPi1FXpxNs0qvRDzOGTw8F8SX?alt=media&key=AIzaSyCwfa8n8lETUWoU1AgB9KdVRD1su_e9Gg0" type="audio/mp3">
-    <p>Your browser doesn't support the audio tag. Download the MP3 file here:  <a href="https://drive.google.com/file/d/1KggRUpNYPi1FXpxNs0qvRDzOGTw8F8SX/view?usp=sharing">https://drive.google.com/file/d/1KggRUpNYPi1FXpxNs0qvRDzOGTw8F8SX/view?usp=sharing</a></p>
+    <source src="https://github.com/PhilStollery/phils.weblog.lol/raw/master/audio/Bringing%20audio%20to%20my%20weblog.m4a" type="audio/mp3">
+    <p>Your browser doesn't support the audio tag. Download the M4A file here:  <a href="https://github.com/PhilStollery/phils.weblog.lol/raw/master/audio/Bringing%20audio%20to%20my%20weblog.m4a">https://github.com/PhilStollery/phils.weblog.lol/raw/master/audio/Bringing%20audio%20to%20my%20weblog.m4a</a></p>
 </audio>
 
 I've been adding PDF downloads to my writing samples — using Google Drive. I also have been thinking I'd like to add the [micro.blog](https://micro.blog/) feature of audio posts. A quick search found [Embedding Audio Files from Google Drive into HTML](https://www.simonsays.so/embedding-audio-files-from-google-drive/). But this didn't work. I think it's a combination of CORS and other authentication blocking from Google. There is however a fix. 
