@@ -1,5 +1,10 @@
 on: [push]
 
+# This allows a subsequently queued workflow run to interrupt previous runs
+concurrency:
+  group: "${{ github.workflow }} @ ${{ github.event.pull_request.head.label || github.head_ref || github.ref }}"
+  cancel-in-progress: true
+
 jobs:
   weblog_import:
     runs-on: ubuntu-latest
@@ -13,3 +18,22 @@ jobs:
         env:
           ADDRESS: phils
           WEBLOG_API_KEY: ${{ secrets.WEBLOG_API_KEY }}
+  update_algolia:
+    runs-on: ubuntu-latest
+    name: Build Algolia search index
+    environment: Build Search Index
+
+    steps:
+      - name: Checkout the repo
+        uses: actions/checkout@v3
+      - name: Setup node, add to the search index
+        uses: actions/setup-node@v3
+        with:
+          node-version: "20"
+      - run: npm install
+      - run: npm run export
+      - run: npm install algoliasearch
+      - name: Run build-search-index script
+        run: node ./scripts/build-search-index.js
+        env:
+          ALGOLIA_SECRET: ${{ secrets.ALGOLIA_SECRET }}
