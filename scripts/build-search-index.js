@@ -17,7 +17,7 @@ process.on('unhandledRejection', (reason, promise) => {
 
     // Add the objectID and description to the index data
     let titleLength = to_index.content_text.indexOf("\n\n");
-    to_index.description = to_index.content_text.substring(titleLength+2, titleLength+90)+"...";
+    to_index.description = to_index.content_text.substring(titleLength+2, titleLength+180)+"...";
     to_index.objectID = to_index.id;
     delete to_index.content_html;
     
