@@ -10,24 +10,34 @@ process.on('unhandledRejection', (reason, promise) => {
 
 (async function () {
   try {
+    // Get the latest feed.json RSS feed
+    const client = algoliasearch("GQILQXL5YC", process.env.ALGOLIA_SECRET);
+    const index = client.initIndex("feed");
+
     console.log("Updating search index through Algolia...");
     const response = await fetch('https://stollerys.co.uk/feed.json');
     const data = await response.json();
-    let to_index = data["items"][0];
 
-    // Add the objectID and description to the index data
-    let titleLength = to_index.content_text.indexOf("\n\n");
-    to_index.description = to_index.content_text.substring(titleLength+2, titleLength+140)+"...";
-    to_index.objectID = to_index.id;
-    delete to_index.content_html;
+    let posts = data["items"];
+
+    console.log(`Rebuilding search index data ${posts.length} posts...`);
+    for (let i = 0; i < posts.length; i++) {
+      let post = posts[i];
+
+      // Add the objectID and description to the index data
+      let titleLength = post.content_text.indexOf("\n\n");
+      post.description = post.content_text.substring(titleLength+2, titleLength+140)+"...";
+      post.objectID = post.id;
+      delete post.content_html;
+
+      console.log("Adding this post details ...");
+      console.log(post);
+
+      await index.saveObject(post);
+      console.log("... added post to index");
+    }
     
-    console.log("Adding this post details ...");
-    console.log(to_index);
-    const client = algoliasearch("GQILQXL5YC", process.env.ALGOLIA_SECRET);
-    const index = client.initIndex("feed");
-    console.log("... updating index");
-    await index.saveObject(to_index);
-    console.log("Index updated. 🎉");
+    console.log("Full search index updated. 🎉");
   } catch (error) {
     console.error("An error occurred:", error);
   } finally {
