@@ -19,6 +19,7 @@ jobs:
           ADDRESS: phils
           WEBLOG_API_KEY: ${{ secrets.WEBLOG_API_KEY }}
   update_algolia:
+    needs: weblog_import
     runs-on: ubuntu-latest
     name: Build Algolia search index
     environment: Build Search Index
