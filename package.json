@@ -1,0 +1,15 @@
+{
+  "name": "phils.weblog.lol",
+  "version": "1.0.0",
+  "description": "weblog with automated search",
+  "main": "./scripts/build-search-index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Phil Stollery",
+  "license": "ISC",
+  "dependencies": {
+    "algoliasearch": "^4.23.3",
+    "node-fetch": "^3.0"
+  }
+}

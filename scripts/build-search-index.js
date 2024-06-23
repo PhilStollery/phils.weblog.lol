@@ -1,27 +1,15 @@
 const algoliasearch = require("algoliasearch");
-const fetch = require('node-fetch');
-
-function getNewPost(files) {
-  files = files ? files : [];
-  let url = "https://stollerys.co.uk/feed.json";
-  let settings = { method: "Get" };
-
-  fetch(url, settings)
-    .then(res => res.json())
-    .then((json) => {
-      console.log(json);
-      files = json["items"][1];
-    });
-  return files;
-}
+const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args));
 
 (async function () {
 
   console.log("Updating search index through Algolia...");
+  const response = await fetch('https://stollerys.co.uk/feed.json');
+  const data = await response.json();
 
-  let to_index = [];
+  let to_index = data["items"][0];
+  to_index.description = to_index.content_text.substring(0, 45)+"...";
 
-  getNewPost(to_index);
   console.log("Adding this post details ...");
   console.log(to_index);
 

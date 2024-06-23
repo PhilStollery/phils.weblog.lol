@@ -32,7 +32,7 @@ jobs:
           node-version: "20"
       - run: npm install
       - run: npm run export
-      - run: npm install algoliasearch
+      - run: npm install algoliasearch node-fetch
       - name: Run build-search-index script
         run: node ./scripts/build-search-index.js
         env:
