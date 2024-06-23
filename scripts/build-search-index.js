@@ -16,13 +16,15 @@ process.on('unhandledRejection', (reason, promise) => {
     let to_index = data["items"][0];
 
     // Add the objectID and description to the index data
-    to_index.description = to_index.content_text.substring(0, 90)+"...";
+    let titleLength = to_index.content_text.indexOf("\n\n");
+    to_index.description = to_index.content_text.substring(titleLength+2, titleLength+90)+"...";
     to_index.objectID = to_index.id;
     delete to_index.content_html;
     
     console.log("Adding this post details ...");
     console.log(to_index);
-    const client = algoliasearch("GQILQXL5YC", process.env.ALGOLIA_SECRET);
+    //const client = algoliasearch("GQILQXL5YC", process.env.ALGOLIA_SECRET);
+    const client = algoliasearch("GQILQXL5YC", "4c08db85212d58c48d3e28e0c8dbfd16");
     const index = client.initIndex("feed");
     console.log("... updating index");
     await index.saveObject(to_index);
