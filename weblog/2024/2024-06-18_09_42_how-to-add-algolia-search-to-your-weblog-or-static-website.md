@@ -178,7 +178,7 @@ You also have to add every new post into the search index. I was hoping the exce
 
 ## I forgot about GitHub and GitHub actions
 
-Maybe I can automate all this for free using GitHub. It would also fix my audio and image hosting... I'll update if I work it out.
+Maybe I can automate all this for free using GitHub. It would also fix my audio and image hosting... I'll update if I work it out. [😉](https://stollerys.co.uk/2024/06/testing-github-actions-to-add-new-weblog-posts-to-my-search-index)
 
 
 Good luck [searching](/search).
