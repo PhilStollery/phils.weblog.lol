@@ -70,7 +70,7 @@ Title: Landing Page Template
 </span> 
   </div>
 	<div class="item">
-	   <a href="https://people.pledge.party"><img src="/images/people_pledge_badge.png"/></a>
+	   <a href="https://people.pledge.party"><img src="https://raw.githubusercontent.com/PhilStollery/phils.weblog.lol/refs/heads/master/images/people_pledge_badge.png"/></a>
 	</div>
 </div>
 </main>
