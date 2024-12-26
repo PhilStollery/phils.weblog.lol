@@ -63,6 +63,9 @@ Title: Page Template
 <a href="https://webri.ng/webring/webloglol/next?via=https://stollerys.co.uk"><i class="fa-solid fa-circle-right"></i></a>
 </span> 
 	</div>
+	<div class=“item”>
+	   <a href=“https://people.pledge.party”><img src=“/images/people_pledge_badge.png”/></a>
+	</div>
 </div>
 
 </main>
