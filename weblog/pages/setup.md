@@ -23,7 +23,9 @@ Location: /setup
 | <i class="fas fa-laptop"></i> Laptop | 
 |:---:|
 | MacBook Pro M4 14" |
-|M4 Pro 14‑core CPU, <br/> 20‑core GPU  <br/> and 16‑core Neural Engine |
+| M4 Pro 14‑core CPU | 
+| 20‑core GPU |
+| 16‑core Neural Engine |
 | Space Black |
 | 48 GB RAM |
 | 1 TB |
@@ -34,7 +36,7 @@ Location: /setup
 | <i class="fas fa-desktop"></i> Apple Server |
 |:---:| 
 | Mac mini (Late 2014)|
-| 1.4 GHz Dual-Core <br/> Intel Core i5|
+| Intel i5 1.4 GHz Dual-Core |
 | 4 GB 1600 MHz |
 | 512 GB SSD |
 
@@ -43,7 +45,7 @@ Location: /setup
 | <i class="fas fa-desktop"></i> Ubuntu Server |
 |:---:| 
 | Raspbery Pi 5|
-| Arm Cortex A76 processor @ 2.4GHz|
+| Arm Cortex A76 2.4GHz|
 | 8 GB RAM |
 | 512 GB SSD |
 
