@@ -22,10 +22,10 @@ Location: /setup
 
 | <i class="fas fa-laptop"></i> Laptop | 
 |:---:|
-| MacBook Air M1 |
-| Silver |
-| 16 GB RAM |
-| 512 GB |
+| MacBook Pro M4 14" |
+| Space Black |
+| 48 GB RAM |
+| 1 TB |
 
 </div>
 <div class="table-cell">
@@ -35,6 +35,11 @@ Location: /setup
 | Mac mini (Late 2014)|
 | 1.4 GHz Dual-Core <br/> Intel Core i5|
 | 4 GB 1600 MHz |
+| 512 GB SSD |
+|:---:| 
+| Raspbery Pi 5|
+| 1.4 GHz Dual-Core <br/> Arm Cortex A76 processor @ 2.4GHz|
+| 8 GB RAM |
 | 512 GB SSD |
 
 </div>
