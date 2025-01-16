@@ -23,7 +23,8 @@ Location: /setup
 | <i class="fas fa-laptop"></i> Laptop | 
 |:---:|
 | MacBook Pro M4 14" |
-|M4 Pro 14‑core CPU,  <br/> 20‑core GPU  <br/> and 16‑core Neural Engine |
+|M4 Pro 14‑core CPU,  <br/> 20‑core GPU  <br/> 
+and 16‑core Neural Engine |
 | Space Black |
 | 48 GB RAM |
 | 1 TB |
