@@ -23,6 +23,7 @@ Location: /setup
 | <i class="fas fa-laptop"></i> Laptop | 
 |:---:|
 | MacBook Pro M4 14" |
+| Apple M4 Pro chip with 14‑core CPU, 20‑core GPU and 16‑core Neural Engine |
 | Space Black |
 | 48 GB RAM |
 | 1 TB |
@@ -30,15 +31,17 @@ Location: /setup
 </div>
 <div class="table-cell">
 
-| <i class="fas fa-desktop"></i> Server |
+| <i class="fas fa-desktop"></i> Apple Server |
 |:---:| 
 | Mac mini (Late 2014)|
 | 1.4 GHz Dual-Core <br/> Intel Core i5|
 | 4 GB 1600 MHz |
 | 512 GB SSD |
+
+| <i class="fas fa-desktop"></i> Ubuntu Server |
 |:---:| 
 | Raspbery Pi 5|
-| 1.4 GHz Dual-Core <br/> Arm Cortex A76 processor @ 2.4GHz|
+| Arm Cortex A76 processor @ 2.4GHz|
 | 8 GB RAM |
 | 512 GB SSD |
 
